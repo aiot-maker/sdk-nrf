@@ -1241,6 +1241,13 @@ Bluetooth libraries and services
       The option is enabled by default if :kconfig:option:`CONFIG_BT_HCI_VS` is enabled.
     * A vendor-specific DTM 2-wire command for constant carrier transmission.
 
+* :ref:`cs_de_readme` library:
+
+  * Fixed the documentation of the :c:func:`cs_de_combined_iq_calculate` function.
+    Even indexes of the combined IQ values hold the real component and odd indexes hold the imaginary component.
+  * Updated the documentation of the :c:func:`cs_de_ifft` function with the required buffer contents and the output layout.
+  * Added a section on how missing tones affect the IFFT distance estimate.
+
 Common Application Framework
 ----------------------------
 
